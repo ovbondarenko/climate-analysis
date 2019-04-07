@@ -1,0 +1,16 @@
+.box {
+    height: 600px;
+    padding: 10px;
+    margin-top: 80px;
+    margin-left:20px;
+    margin-right:20px;
+    color: black;
+    background: azure;
+    border:2px solid red;
+  }
+  
+  
+/* .navbar{
+    position: fixed;
+    top: 0;
+} */
