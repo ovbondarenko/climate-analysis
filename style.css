@@ -9,8 +9,17 @@
     border:2px solid red;
   }
   
-  
-/* .navbar{
-    position: fixed;
-    top: 0;
-} */
+ p {
+   font-size: 20px;
+ } 
+
+ /* image1 {
+  background: url("images/trip_avg_temp.png");
+  background-size:cover;
+ } */
+
+ .thumbnail {
+   width:250px;
+   height:250px;
+
+ }
