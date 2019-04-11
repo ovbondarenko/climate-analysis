@@ -1,31 +1,30 @@
-.box {
-    height: 600px;
-    padding: 10px;
-    margin-top: 80px;
-    margin-left:20px;
-    margin-right:20px;
-    color: black;
-    background: azure;
-    border:2px solid red;
+
+
+  .col-md-8 {
+    /* border: solid red; */
+    margin-top:80px;
+    padding:50px;
+
   }
   
 .col-md-4 {
-  border: solid red;
   margin-top:80px;
-  /* margin-left:20px;
-  margin-right:20px; */
+  padding: 40px;
+
 }
 
-.small-box {
-  border: solid red;
-  height: 20%;
-  /* padding: 10px; */
-  margin: 10px;
+
+#image1 {
+  height: 10vw;
+  object-fit: contain;
 }
 
 .card-img-top {
-  width: 50%;
-  height: 7vw;
   object-fit: cover;
   overflow: hidden;
 }
+
+container {
+  padding:10px
+}
+

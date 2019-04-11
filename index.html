@@ -47,19 +47,18 @@
                 <a class="nav-link" href="#">Comparisons</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
+          <!-- <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+          </form> -->
         </div>
       </nav>
 <!--/.Navbar -->
- 
-<div class = "container">
+
 <div class = "row">
 
     <div class="col-md-8"> 
-        <div class = "box"> 
+        <div class = "container"> 
             <h1>Summary: Hawaii weather in November</h1>
             <img class="float-left" src = "images/trip_avg_temp.png" alt="Average temperature in November"/>
             <p> 
@@ -80,55 +79,55 @@
 
     <div class="col-md-4">
 
-      <!-- <div class = "row small-box"> -->
+      <h2> Visualizations </h2>
+
+      <div class = "row">
+
+      <div class = "col-sm-6">
         <a href="pages/precipitation.html" class="custom-card">
         <div class = "card">
-            <div class = "card-header">Precipitation</div>
-            <img class = "card-img-top mx-auto" src="images/precipitation_12months.png" alt="precipitation">
+            <!-- <div class = "card-header">Precipitation</div> -->
+            <a class="img-card" href="pages/precipitation.html">
+              <img class = "card-img-top mx-auto" src="images/precipitation_12months.png" alt="precipitation">
+            </a>
         </div>
         </a>
-        
+      </div>
+
+      <div class = "col-sm-6">
         <a href="pages/temperature.html" class="custom-card">
         <div class = "card">
-          <div class = "card-header">Avg Temperature</div>
-          <img class = "card-img-top mx-auto" src="images/trip_avg_temp.png" alt="temperature">
+          <!-- <div class = "card-header">Avg Temperature</div> -->
+          <img class = "card-img-top mx-auto" src="images/trip_avg_temp.png" alt="temperature" id = "image1">
         </div>
         </a>
+      </div>
+
+      </div>
+
+      <div class = "row">
+
+          <div class = "col-sm-6">
+              <a href="pages/stations.html" class="custom-card">
+                <div class = "card">
         
-        <a href="pages/stations.html" class="custom-card">
-        <div class = "card">
-          <div class = "card-header">Station observations</div>
-          <img class = "card-img-top mx-auto" src="images/usc00519281_tobs.png" alt="temperature by station">
-        </div>
-        </a>
+                  <img class = "card-img-top mx-auto" src="images/usc00519281_tobs.png" alt="temperature by station">
+                </div>
+                </a>
+              </div>
 
-        <a href="pages/temperature.html" class="custom-card">
-        <div class = "card">
-            <div class = "card-header">Temperature - Normals</div>
-            <img class = "card-img-top mx-auto" src="images/temp_normals.png" alt="temperature normals">
-        </div>
-        </a>
-
-      <!-- </div> -->
-
-    <!--------------- Extra boxes------------
-
-      <div class = "row small-box">
-
-      </div>
-
-      <div class = "row small-box">
-
-      </div>
-
-      <div class = "row small-box">
-
-      </div>
-
-      ---------------Extra boxes--------------------------
-
-    </div>
+                <div class = "col-sm-6">
+        
+                <a href="pages/temperature.html" class="custom-card">
+                <div class = "card">
+                    <img class = "card-img-top mx-auto" src="images/temp_normals.png" alt="temperature normals">
+                </div>
+                </a>
+          </div>
     
+          </div>
+
+
 
   </div>
 
