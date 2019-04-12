@@ -1,7 +1,7 @@
 
 
-  .col-md-8 {
-    /* border: solid red; */
+.col-md-8 {
+
     margin-top:80px;
     padding:50px;
 
@@ -9,14 +9,22 @@
   
 .col-md-4 {
   margin-top:80px;
-  padding: 40px;
+  padding: 50px;
 
 }
 
+/* .special {
+
+} */
+
 
 #image1 {
-  height: 10vw;
+  height: 10%;
   object-fit: contain;
+}
+
+#header-row {
+  justify-content: center;
 }
 
 .card-img-top {
@@ -27,4 +35,24 @@
 container {
   padding:10px
 }
+
+@media (max-width: 900px) {
+
+  .col-md-4 {
+    display:none;
+  }
+}
+
+@media (min-width: 900px) {
+
+  .card-deck {
+    display:none;
+  }
+
+  #header-row {
+    display:none;
+  }
+
+}
+
 

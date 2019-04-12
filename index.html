@@ -38,13 +38,12 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="pages/precipitation.html">Precipitation</a>
                 <a class="dropdown-item" href="pages/temperature.html">Temperature</a>
-                <!-- <div class="dropdown-divider"></div> -->
                 <a class="dropdown-item" href="pages/stations.html">Stations</a>
-                <a class="dropdown-item" href="pages/maps.html">Maps</a>
+                <a class="dropdown-item" href="pages/temperature-normals.html">Temperature Normals</a>
               </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Comparisons</a>
+                <a class="nav-link" href="pages/comparisons.html">Comparisons</a>
             </li>
           </ul>
           <!-- <form class="form-inline my-2 my-lg-0">
@@ -60,6 +59,7 @@
     <div class="col-md-8"> 
         <div class = "container"> 
             <h1>Summary: Hawaii weather in November</h1>
+            <br>
             <img class="float-left" src = "images/trip_avg_temp.png" alt="Average temperature in November"/>
             <p> 
     
@@ -79,14 +79,15 @@
 
     <div class="col-md-4">
 
+      <br>
       <h2> Visualizations </h2>
+      <br>
 
       <div class = "row">
 
       <div class = "col-sm-6">
         <a href="pages/precipitation.html" class="custom-card">
         <div class = "card">
-            <!-- <div class = "card-header">Precipitation</div> -->
             <a class="img-card" href="pages/precipitation.html">
               <img class = "card-img-top mx-auto" src="images/precipitation_12months.png" alt="precipitation">
             </a>
@@ -110,7 +111,6 @@
           <div class = "col-sm-6">
               <a href="pages/stations.html" class="custom-card">
                 <div class = "card">
-        
                   <img class = "card-img-top mx-auto" src="images/usc00519281_tobs.png" alt="temperature by station">
                 </div>
                 </a>
@@ -118,7 +118,7 @@
 
                 <div class = "col-sm-6">
         
-                <a href="pages/temperature.html" class="custom-card">
+                <a href="pages/temperature-normals.html" class="custom-card">
                 <div class = "card">
                     <img class = "card-img-top mx-auto" src="images/temp_normals.png" alt="temperature normals">
                 </div>
@@ -129,10 +129,45 @@
 
 
 
-  </div>
+    </div>
 
 </div>  
 
+<div class = "container">
+
+  <div class = "row" id="header-row">
+  <h3>Visualizations</h3>
+  </div>
+
+  <div class="card-deck">
+      <div class="card">
+      <a href="pages/precipitation.html" class="custom-card">
+        <img class="card-img-top" src="images/precipitation_12months.png" alt="Card image cap">
+      </a>
+      </div>
     
+      <div class="card">
+      <a href="pages/temperature.html" class="custom-card">
+          <img class="card-img-top" src="images/trip_avg_temp.png" alt="Card image cap" id="image1">
+        </a>
+       </div>
+
+       <div class="card">
+      <a href="pages/stations.html" class="custom-card">
+        <img class="card-img-top" src="images/usc00519281_tobs.png" alt="Card image cap">
+        </a>
+      </div>
+
+
+      <div class="card">
+        <a href="pages/temperature-normals.html" class="custom-card">
+        <img class="card-img-top" src="images/temp_normals.png" alt="Card image cap">
+        </a>
+      </div>
+
+  </div>
+
+</div>   
+
 </body>
 </html>
