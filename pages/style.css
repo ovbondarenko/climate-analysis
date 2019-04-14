@@ -1,13 +1,13 @@
-.container {
+.container-comparisons {
 
-  margin-top:80px; */
-  /* padding:10px;
+  margin-top:80px; 
+  padding:10px;
 
 }
-
+/* 
 .img {
   height: auto;
-}
+} */
 
 .col-lg-12 {
 
@@ -29,9 +29,6 @@ padding: 50px;
 
 }
 
-/* .special {
-
-} */
 
 
 #image1 {
@@ -57,7 +54,14 @@ padding:10px
 }
 
 h1 {
+  font-size: 2vw;
+  text-align: center;
+  color: steelblue;
+}
+
+h2 {
   font-size: 5vw;
+
 }
 
 .card-title {
