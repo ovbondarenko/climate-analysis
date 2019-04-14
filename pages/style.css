@@ -1,16 +1,101 @@
-.box {
-    height: 600px;
-    padding: 10px;
-    margin-top: 80px;
-    margin-left:20px;
-    margin-right:20px;
-    color: black;
-    background: azure;
-    border:2px solid red;
-  }
-  
-  
-/* .navbar{
-    position: fixed;
-    top: 0;
+.container {
+
+  margin-top:80px;
+  /* padding:10px; */
+
+}
+
+.img {
+  height: auto;
+}
+
+.col-lg-12 {
+
+  margin-top:80px;
+  padding:50px;
+
+}
+
+.col-md-8 {
+
+  margin-top:80px;
+  padding:50px;
+
+}
+
+.col-md-4 {
+margin-top:80px;
+padding: 50px;
+
+}
+
+/* .special {
+
 } */
+
+
+#image1 {
+height: 10%;
+object-fit: contain;
+}
+
+#header-row {
+justify-content: center;
+}
+
+.card-img-top {
+object-fit: cover;
+overflow: hidden;
+}
+
+#nov-avg-temp {
+  height: 10vw;
+}
+
+container {
+padding:10px
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 5vw;
+}
+
+.special-title {
+  text-align: center;
+  font-size: 5vw;
+  margin-top:80;
+
+}
+
+.card-text {
+
+  text-align: justify;
+  /* font-size: 3vw; */
+
+}
+
+@media (max-width: 900px) {
+
+.col-md-4 {
+  display:none;
+}
+}
+
+@media (min-width: 900px) {
+
+.card-deck {
+  display:none;
+}
+
+#header-row {
+  display:none;
+}
+
+}
+
+
